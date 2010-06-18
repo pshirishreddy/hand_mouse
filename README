@@ -1,0 +1,33 @@
+Name: Hand Mouse
+Version: 1.0
+Date: 18/06/2010
+Category: Mouse Functionalities
+
+Description:
+-----------
+The Code deals with replacement of mouse functionality using hand gestures
+
+Requirements: 
+------------
+Software:
+1. OpenCV library
+2. X11 library - Xlib
+
+Hardware:
+1. WebCam
+
+Installation:
+------------
+The main source file is HandGesture.cpp
+
+Compilation:
+-----------
+Compile it using the following command
+g++ `pkg-config opencv --cflags --libs` HandGesture.cpp -o HandMouse
+
+Works on Linux. I've tested it with ubuntu
+
+
+
+
+ 
