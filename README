@@ -24,6 +24,8 @@ Compilation:
 -----------
 Compile it using the following command
 g++ `pkg-config opencv --cflags --libs` HandGesture.cpp -o HandMouse
+OR
+simply type 'make'(with out quotes) at command line
 
 Works on Linux. I've tested it with ubuntu
 
